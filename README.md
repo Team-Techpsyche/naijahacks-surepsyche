@@ -1,9 +1,16 @@
-# naijahacks-surepsyche
-SurePsyches - Mental Awareness For All
-#Team Members
--Ebere Okonkwo, Frontend developer
--Okaneme Chibuike Victor, Backend developer
--Nwachukwu Ifeoma Sandra, Frontend developer
--Martins Abayomi, Full Stack
-
- This contains the mock up page created using html and css created by Ebere Okonkwo
+# SurePsyches - Mental Awareness For All
+​
+Surepsyches is asolution that enables and facilitates the wholesome education about mental health. it provides an easy-to-access, friendly and ever-available resource to seek enlightenment and education about mental health
+​
+## Team Members
+​
+1. Ebere Okonkwo - Frontend Developer
+1. Okaneme Chibuikem Victor - Backend Developer
+1. Nwachukwu Ifeoma Sandra - Frontend Developer
+1. Martins Obayomi - Fullstack Developer
+​
+| Name                      | Email                             |
+|Ebere Okonkwo              | ebymary.okonkwo@gmail.com         |
+|Okaneme Chibuikem victor   | Okanemechibuikem@gmail.com        |
+|Nwachukwu Ifeoma Sandra    | nwachukwuifeomasandra@gmail.com   |
+|Martins Obayomi            | martinsoluwaseun47@gmail.com      |
