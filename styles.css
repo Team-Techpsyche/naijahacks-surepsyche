@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("./image/download (1).jpg");
+  background-image: url("./image/mental health.png");
   background-position: right 50px;
   background-repeat: no-repeat;
 }
@@ -90,7 +90,7 @@ li a:hover {
 
 .abs {
   position: absolute;
-  top: 60%;
+  top: 65%;
 }
 .alone {
   position: absolute;
@@ -133,7 +133,7 @@ li a:hover {
   display: flex;
   margin: 10px;
   width: 30%;
-  height: 190px;
+  height: 180px;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
