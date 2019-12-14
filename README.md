@@ -1,6 +1,6 @@
 # SurePsyches - Mental Awareness For All
 ​
-Surepsyches is asolution that enables and facilitates the wholesome education about mental health. it provides an easy-to-access, friendly and ever-available resource to seek enlightenment and education about mental health
+Surepsyches is a solution that enables and facilitates the wholesome education about mental health. It provides an easy-to-access, friendly and ever-available resource to seek enlightenment and education, as well as the necessary help and attention regards mental health
 ​
 ## Team Members
 ​
