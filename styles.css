@@ -1,15 +1,33 @@
-git * {
+ * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+  background-image: url("./image/download (1).jpg");
+  background-position: right 50px;
+  background-repeat: no-repeat;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    padding-left: 10%;
   }
-  
-  li {
+
+ #hue {
+   color: rgb(25, 238, 227);
+ }
+
+ #logo {
+   font-size: 250%;
+   font-weight: bold;
+   line-height: 30px;
+   letter-spacing: -6px;
+ }
+    li {
     float: left;
     font-size: large;
   }
@@ -25,17 +43,17 @@ ul {
   button {
     position: absolute;
     top: 7px;
-    right: 5px;
+    right: 110px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 130px;
     height: 40px;
     background-color: rgb(25, 238, 227);
-    color: rgb(138, 159, 253);
+    color: white;
   }
 
 .info {
-  background-color: rgb(25, 238, 227);
+  background-color: rgb(5, 185, 176);
   height: 40px;
   width: 250px;
   color: rgb(138, 159, 253);
@@ -45,8 +63,9 @@ ul {
 }
  
 .column {
-  width: 50%;
+  width: 70%;
   padding: 10px;
+  line-height: 2em;
 }
 
 li a:hover {
@@ -61,7 +80,22 @@ li a:hover {
 }
 
 .social .fa{
-  padding-top: 20%;
+  padding-top: 18%;
+  color: black;
+}
+
+.image {
+  width: 1000px;
+}
+
+.abs {
+  position: absolute;
+  top: 60%;
+}
+.alone {
+  position: absolute;
+  top: 10px;
+  right: 290px;
 }
 
 .send-chat {
@@ -79,39 +113,27 @@ li a:hover {
 
 }
 
-.flextwo {
-  padding: 20px;
-  margin: 10px;
-  background-color: rgb(27, 118, 204);
-  color: white;
-  width: 25%;
-  height: 180px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .about {
-  color: rgb(129, 137, 250);
-  font-style: italic;
   font-size: 2em;
 }
 
 .shift {
+ 
   display: flex;
   margin-left: 10%;
 }
 
 .connect {
-  margin-left: 10%;
-  word-spacing: 10px;
+  margin-left: 11%;
+  word-spacing: 8px;
   letter-spacing: 5px;
 }
 
 .flexrest {
   display: flex;
   margin: 10px;
-  width: 25%;
-  height: 180px;
+  width: 30%;
+  height: 190px;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
