@@ -1,12 +1,16 @@
 git * {
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif, serif;
+}
+header {
+  margin-left: 15px;
+  display: inline-block;
+  width: 100%;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
   }
   
   li {
@@ -23,61 +27,58 @@ ul {
   }
   .auth {
     position: absolute;
-    top: 7px;
+    top: 5px;
     right: 5px;
-    /* border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 130px;
-    height: 40px; */
+    float: right;
+    display: inline-flex;
+    padding: 15px;
   }
   .sign-in {
-    margin: 50px;
-    position: fixed;
-    color: black;
+    margin-right: 20px;
     text-decoration: none;
-    
+    color: #000;
   }
+
   button {
-    position: fixed;
-    top: 7px;
-    right: 5px;
-    border-radius: 5px;
+    border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 130px;
-    height: 40px;
+    width: 150px;
+    height: 50px;
     background-color: green;
     color: #fff;
+  } 
+  button:hover {
+    background: darkgreen;
+    transition: 0.5ms;
+  } 
+  
+  .logo {
+    font-size: 50px;
+    font-weight: 700px;
+  }
+  .other-links {
+    margin-top: 20px;
   }
 
 .info {
   background-color: rgb(25, 238, 227);
   height: 40px;
-  width: 250px;
+  /* width: 250px; */
   color: rgb(138, 159, 253);
   line-height: 40px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
- 
-.column {
-  width: 100%;
-  padding: 10px;
-}
-
-li a:hover {
-  background-color: rgb(199, 248, 252);
-  color: white;
-}
 
 .social{
   justify-content: space-evenly;
-  width: 150px;
   padding-top: 15%;
   color: #000;
+  font-size: 20px;;
 }
 
 .social .fa{
-  padding-top: 20%;
+  padding: 20%;
   color: #000;
 }
 
@@ -91,31 +92,59 @@ li a:hover {
 
 .flex {
   display: flex;
-  margin: 10px;
-  padding-right: 90px;
-
+  /* margin: 10px; */
 }
 
 .flextwo {
   padding: 20px;
   margin: 10px;
-  background-color: rgb(27, 118, 204);
-  color: white;
-  width: 25%;
-  height: 180px;
+  color: #000;
+  /* width: 25%; */
+  height: inherit;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about {
   color: #000;
-  /* font-style: italic; */
-  font-size: 2em;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+small {
+  font-size: 15px;
 }
 
-.shift {
+.column {
   display: flex;
-  margin-left: 10%;
+  margin-top: 30px;
+  /* width: 100%; */
+  padding: 10px;
+  height: inherit;
+  margin-left: 50px;
+}
+.image {
+  float: right;
+  margin-right: 5px;
+}
+.img {
+  float: right;
+  margin-right: 0;
+  width: 50%;
+  right: 0;
+  margin-bottom: 100px !important;
+
+}
+.shift {
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: inherit;
+
 }
 
 .connect {
@@ -125,11 +154,23 @@ li a:hover {
 }
 
 .flexrest {
+  background: transparent !important;
+  border-spacing: border-box;
   display: flex;
   margin: 10px;
   width: 25%;
-  height: 180px;
   border-radius: 5px;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cards {
+  height: inherit;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.send-chat.fa {
+  color: green;
 }
