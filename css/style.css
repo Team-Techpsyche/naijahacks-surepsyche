@@ -12,8 +12,72 @@ body {
 }
 .lady-img {
   position: absolute;
-  top: 20%;
-  background-image: url("../img/lady.png");
+  top: -20%;
   background-size: cover;
   background-position: top;
+  z-index: -1;
+}
+.cards {
+  z-index: 3;
+}
+.cards,
+a {
+  color: #000000;
+}
+
+.cards a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+.cards-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-1 {
+  animation-name: moveInLeft;
+  animation-duration: 0.8s;
+}
+.card-2 {
+  animation-name: moveInUp;
+  animation-duration: 0.8s;
+}
+.card-3 {
+  animation-name: moveInRight;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
