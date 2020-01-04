@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e0400e4b06.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Surepsyche | Mental Awareness For All</title>
+    <style>
+      @media (max-width: 576px) {
+        nav .container {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR WITH RESPONSIVE TOGGLE -->
+    <nav class="navbar navbar-light navbar-toggleable-md bg-faded">
+      <div class="container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Surepsyche</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <!-- Modal Trigger -->
+
+              <a href="" class="nav-link" data-toggle="modal"
+              data-target="#signinModal">Sign In</a>
+              <!-- Modal -->
+
+              <div class="modal" id="signinModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="signinModalLabel">Sign In</h5>
+                      <button class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+
+                        <button class="btn btn-success">
+                            Login
+                          </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- end of modal -->
+            </li>
+            <li class="nav-item">
+              <!-- Modal Trigger -->
+              <button
+                class="nav-link btn btn-success"
+                data-toggle="modal"
+                data-target="#myModal"
+              >
+                Get Started
+              </button>
+
+              <!-- Modal -->
+
+              <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="myModalLabel">Sign Up</h5>
+                      <button class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form action="">
+
+                          <div class="form-group">
+                              <label for="firstName">First Name</label>
+                              <input type="text" class="form-control" placeholder="First Name">
+                          </div>
+
+                          <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+
+                        <button class="btn btn-success">
+                            Create Account
+                          </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- end of modal -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="row ml-5 p-5">
+      <div class="col-md-7">
+        <h2>
+          Surepsyche is bridging the great lapse in mental health awareness in
+          Nigeria
+        </h2>
+        <p>
+          We provide readily available individual counselling /psychological and
+          structured group sessions for anyone with or at risk of developing a
+          mental illness
+        </p>
+      </div>
+
+      <div class="col-md-5">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sed
+        fuga hic minima ullam commodi aperiam eos laboriosam in neque assumenda
+        molestiae accusamus veniam vero, omnis debitis fugiat nisi provident!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sed
+        fuga hic minima ullam commodi aperiam eos laboriosam in neque assumenda
+        molestiae accusamus veniam vero, omnis debitis fugiat nisi provident!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta sed
+        fuga hic minima ullam commodi aperiam eos laboriosam in neque assumenda
+        molestiae accusamus veniam vero, omnis debitis fugiat nisi provident!
+      </div>
+    </div>
+
+    <div class="row ml-5 p-5">
+      <div class="col">
+        <div class="card">
+          <div class="card-block">
+            <div class="media">
+              <i
+                class="fas fa-comments fa-2x d-flex mr-3"
+                style="color: green;"
+              ></i>
+
+              <a href="" class="card-title mt-0 font-weight-bold"
+                >Private Chat an Expert</a
+              >
+            </div>
+            <p class="card-text ml-5">
+              You can have a one-on-one chat with our verified psychological
+              expert
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-block">
+            <div class="media">
+              <i
+                class="fas fa-question-circle fa-2x d-flex mr-3"
+                style="color: green;"
+              ></i>
+
+              <a href="" class="card-title mt-0 font-weight-bold"
+                >Know Your Mental Health</a
+              >
+            </div>
+            <p class="card-text ml-5">
+              Run a quick survey and know the state of your mental health free
+              of charge
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-block">
+            <div class="media">
+              <i
+                class="fas fa-phone-alt fa-2x d-flex mr-3"
+                style="color: green;"
+              ></i>
+
+              <a
+                href=""
+                class="card-title mt-0 font-weight-bold"
+                data-toggle="modal"
+                data-target="#callModal"
+              >
+                Emergency? CALL US NOW
+              </a>
+
+              <div class="modal" id="callModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="callModalLabel">CALL OUR SOCIAL WORKERS</h5>
+                      <button class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta modi ratione atque corrupti ipsum. Beatae harum quo
+                      facere consectetur rem voluptatem ratione eum architecto
+                      iusto, quia repudiandae inventore hic minus!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="card-text ml-5">
+              Speak with a mental health social worker
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div style="margin-top:500px;"></div> -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+      integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
